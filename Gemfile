@@ -25,6 +25,8 @@ gem 'jbuilder', '~> 2.7'
 # Use Active Model has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
+gem 'jwt', '~> 1.5', '>= 1.5.4'
+
 # gem for user authentication
 gem 'devise'
 
@@ -59,4 +61,4 @@ end
 # Windows does not include zoneinfo files, so bundle the tzinfo-data gem
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
-gem "sqlite3-ruby", "~> 1.3"
+# gem "sqlite3-ruby", "~> 1.3"

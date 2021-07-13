@@ -1,5 +1,5 @@
 {
-  "name": "sample_rails",
+  "name": "fosterconnect_api",
   "private": true,
   "dependencies": {
     "@rails/actioncable": "^6.0.0",
