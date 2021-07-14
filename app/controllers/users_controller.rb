@@ -2,6 +2,7 @@ class UsersController < ApplicationController
     before_action :authenticate_user!
 
     def show
+        puts current_user
     end
 
     def update
@@ -9,6 +10,7 @@ class UsersController < ApplicationController
             render :show
         else
             render json: { errors: current_user.errors }, status: :unprocessable_entity
+            puts current_user.errors.inspect
         end
     end
 
