@@ -43,7 +43,15 @@
 #   production:
 #     url: <%= ENV['DATABASE_URL'] %>
 #
-# production:
+production:
+  test:
+  adapter: postgresql
+  encoding: unicode
+  database: fosterconnect_api_production
+  pool: 5
+  username: gumtow
+  password:
+  timeout: 5000
 #   <<: *default
 
 

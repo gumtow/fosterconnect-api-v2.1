@@ -43,7 +43,7 @@ Rails.application.configure do
   # config.action_cable.url = 'wss://example.com/cable'
   # config.action_cable.allowed_request_origins = [ 'http://example.com', /http:\/\/example.*/ ]
 
-  config.action_mailer.default_url_options = { host: 'http://digitalocean.com', port: 8080 }
+  config.action_mailer.default_url_options = { host: 'fosterconnect-api-v-2-1.ondigitalocean.app', port: 8080 }
 
 
   # Force all access to the app over SSL, use Strict-Transport-Security, and use secure cookies.
