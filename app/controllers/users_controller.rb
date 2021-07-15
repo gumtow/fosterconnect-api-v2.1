@@ -2,7 +2,7 @@ class UsersController < ApplicationController
     before_action :authenticate_user!
 
     def show
-        puts current_user
+        render json: user
     end
 
     def update
